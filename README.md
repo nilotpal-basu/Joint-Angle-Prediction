@@ -14,10 +14,12 @@ This repository contains the implementation of a **Joint Angle Prediction** mode
 ---
 
 ## Features of the Project
+- **Outlier Handling:** Extreme outliers in the dataset were identified and handled using robust statistical techniques, ensuring the model's predictions remain accurate and reliable.
 - **Gradient Boosting Models Used:**
   - **XGBoost:** For efficient, accurate, and scalable tree boosting.
   - **LightGBM:** Optimized for faster training on large datasets.
 - **Cross-validation:** Ensured model generalizability and robustness with k-fold cross-validation.
+
 
 ---
 
